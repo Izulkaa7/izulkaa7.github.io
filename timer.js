@@ -1,6 +1,6 @@
 function odliczanie()
 {
-    var odliczanieDo = new Date("8 Oct, 2018 15:37:25").getTime();
+    var odliczanieDo = new Date("30 Oct, 2018 15:37:25").getTime();
     var teraz = new Date().getTime();
 
     var odstepCzasu = odliczanieDo - teraz;
@@ -23,7 +23,7 @@ function odliczanie()
     document.getElementById("minuta").innerHTML = minuta;
     document.getElementById("sekunda").innerHTML = sekunda;
 
-  
+
 
     setTimeout(odliczanie,1000);
 }
