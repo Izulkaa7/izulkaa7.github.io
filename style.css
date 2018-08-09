@@ -1,0 +1,164 @@
+body{
+   
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+p{
+    font-size:30px;
+    margin: 0 0 24px 0;
+    opacity: 0.85;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, #ef43c1 0%,#294fce 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}   
+
+.middle-box{
+    animation: show 1s 1s forwards;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.clock-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-item{
+
+    transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+    border: solid 1px #fff;
+    width: 72px;
+    height: 72px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    color:white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-item a{
+  font-size: 28px;
+  color:white;
+}
+
+.button{
+    animation: bg 0.3s linear;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px;
+    border: none;
+    color: rgba(219, 9, 9, 0.897);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color:rgb(255, 0, 221);
+    color:white;
+}
+
+
+@keyframes show {
+  0% {
+    
+    opacity: 0;
+  }
+  100% {
+    
+    opacity: 1;
+  }
+}
+
+#zegar{
+    font-size: 30px;
+    height: 80x;
+    justify-content: center;
+    text-align: center;
+}
+
+.clock{
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-item{
+    transition: all 0.3s ease-in-out;
+    border-radius: 100%;
+    border: solid 1px #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin: 0px 35px;
+    font-size: 55px;
+    color:white;
+}
+
+.text-clock{
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
